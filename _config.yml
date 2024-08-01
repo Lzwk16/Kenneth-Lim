@@ -1,13 +1,17 @@
+# GitHub settings
+#repository: yourusername/yourusername.github.io
+remote_theme: pages-themes/cayman@v0.2.0 # You can choose a different theme if you like
+
 # Site settings
 title: "Kenneth's Data Science portfolio"
 description: "Hi I'm Kenneth, and I am an aspiring Data Scientist/Machine Learning Engineer. My Portfolio focuses on leveraging statistical and key insights to bring value for businesses "
 url: "https://kenneth-lim-zhao-wei.github.io"
 baseurl: "" # The subpath of your site, e.g. /blog
 
-# GitHub settings
-#repository: yourusername/yourusername.github.io
-remote_theme: pages-themes/cayman@v0.2.0 # You can choose a different theme if you like
-
+# Contact information
+email: limzhaoweikenneth@gmail.com
+linkedln: "https://www.linkedin.com/in/lzwk16/" # Add your linkedln handle
+github: "https://github.com/Lzwk16"  # Add your github handle
 # # Site Author
 # author:
 #   name: "Your Name"
@@ -77,11 +81,6 @@ defaults:
 footer:
   content: "© Your Name - All rights reserved."
 
-
-# Contact information
-email: limzhaoweikenneth@gmail.com
-linkedln: "https://www.linkedin.com/in/lzwk16/" # Add your linkedln handle
-github: "https://github.com/Lzwk16"  # Add your github handle
 
 # # Custom variables
 # custom:
