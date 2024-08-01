@@ -6,7 +6,7 @@ baseurl: "" # The subpath of your site, e.g. /blog
 
 # GitHub settings
 #repository: yourusername/yourusername.github.io
-remote_theme: pages-themes/modern@v0.2.0 # You can choose a different theme if you like
+remote_theme: pages-themes/cayman@v0.2.0 # You can choose a different theme if you like
 
 # # Site Author
 # author:
