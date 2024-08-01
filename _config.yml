@@ -11,7 +11,8 @@ logo: 1.png # Use a relative path to logo image
 
 show_downloads: true # Fix spelling
 
-theme: jekyll-theme-minimal 
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
 
 plugins:
   - jekyll-seo-tag # Add SEO plugin
