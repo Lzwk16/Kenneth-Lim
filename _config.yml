@@ -1,0 +1,25 @@
+# Site settings
+title: Kenneth's Data Science portfolio
+description: Data science and AI in agriculture - where bytes and botany blend for a better world. # Fix hyphenation 
+url: "https://kenneth-lim-zhao-wei.github.io"
+baseurl: "" # The subpath of your site, e.g. /blog
+
+
+logo: 1.png # Use a relative path to logo image 
+
+
+
+show_downloads: true # Fix spelling
+
+theme: jekyll-theme-minimal 
+
+plugins:
+  - jekyll-seo-tag # Add SEO plugin
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Contact information
+email: limzhaoweikenneth@gmail.com
+linkedln: "https://www.linkedin.com/in/lzwk16/" # Add your linkedln handle
+github: "https://github.com/Lzwk16"  # Add your github handle
