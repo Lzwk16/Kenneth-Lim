@@ -2,6 +2,13 @@
 #repository: yourusername/yourusername.github.io
 remote_theme: pages-themes/cayman@v0.2.0 # You can choose a different theme if you like
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
 # Site settings
 title: "Kenneth's Data Science portfolio"
 description: "Hi I'm Kenneth, and I am an aspiring Data Scientist/Machine Learning Engineer. My Portfolio focuses on leveraging statistical and key insights to bring value for businesses "
@@ -46,12 +53,7 @@ sections:
   - title: "Contact"
     permalink: /contact/
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
+
 
 # Exclude files from the site
 exclude:
