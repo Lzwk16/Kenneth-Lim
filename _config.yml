@@ -1,26 +1,98 @@
 # Site settings
-title: Kenneth's Data Science portfolio
-description: Data science and AI in agriculture - where bytes and botany blend for a better world. # Fix hyphenation 
+title: "Kenneth's Data Science portfolio"
+description: "Hi I'm Kenneth, and I am an aspiring Data Scientist/Machine Learning Engineer. My Portfolio focuses on leveraging statistical and key insights to bring value for businesses "
 url: "https://kenneth-lim-zhao-wei.github.io"
 baseurl: "" # The subpath of your site, e.g. /blog
 
+# GitHub settings
+#repository: yourusername/yourusername.github.io
+remote_theme: pages-themes/modern@v0.2.0 # You can choose a different theme if you like
 
-logo: 1.png # Use a relative path to logo image 
+# # Site Author
+# author:
+#   name: "Your Name"
+#   email: "your.email@example.com"
+#   url: "https://yourwebsite.com" # Optional, if you have a personal website
+#   bio: "A brief biography about yourself."
 
+# # Social Media Links
+# social:
+#   twitter: yourusername
+#   github: yourusername
+#   linkedin: yourusername
+#   # Add other social media platforms as needed
+#   facebook: yourusername
+#   instagram: yourusername
+#   dribbble: yourusername
 
+# Resume sections
+sections:
+  - title: "About Me"
+    permalink: /about/
+  - title: "Experience"
+    permalink: /experience/
+  - title: "Education"
+    permalink: /education/
+  - title: "Skills"
+    permalink: /skills/
+  - title: "Projects"
+    permalink: /projects/
+  - title: "Publications"
+    permalink: /publications/
+  - title: "Contact"
+    permalink: /contact/
 
-show_downloads: true # Fix spelling
-
-# Remote theme directory
-remote_theme: analytics-link/analytics-link.github.io
-
+# Plugins
 plugins:
-  - jekyll-seo-tag # Add SEO plugin
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
+  - jekyll-paginate
+
+# Exclude files from the site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include specific files in the site
+# include:
+#   - _pages
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-modernist
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Footer
+footer:
+  content: "© Your Name - All rights reserved."
+
 
 # Contact information
 email: limzhaoweikenneth@gmail.com
 linkedln: "https://www.linkedin.com/in/lzwk16/" # Add your linkedln handle
 github: "https://github.com/Lzwk16"  # Add your github handle
+
+# # Custom variables
+# custom:
+#   contact_email: "contact@example.com"
+#   phone_number: "+1-234-567-890"
+#   address: "123 Your Street, Your City, Your Country"
+#   languages:
+#     - "English"
+#     - "Spanish"
+#     - "French"
+#   interests:
+#     - "Coding"
+#     - "Reading"
+#     - "Traveling"
