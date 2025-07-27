@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Kenneth-Lim/static/css/main.727eb8ca.css",
-    "main.js": "/Kenneth-Lim/static/js/main.90f15791.js",
+    "main.js": "/Kenneth-Lim/static/js/main.c60e5da5.js",
     "static/js/787.03fea35c.chunk.js": "/Kenneth-Lim/static/js/787.03fea35c.chunk.js",
     "static/media/profilImage.jpg": "/Kenneth-Lim/static/media/profilImage.2aa43ff25f352f036dc7.jpg",
     "index.html": "/Kenneth-Lim/index.html",
     "main.727eb8ca.css.map": "/Kenneth-Lim/static/css/main.727eb8ca.css.map",
-    "main.90f15791.js.map": "/Kenneth-Lim/static/js/main.90f15791.js.map",
+    "main.c60e5da5.js.map": "/Kenneth-Lim/static/js/main.c60e5da5.js.map",
     "787.03fea35c.chunk.js.map": "/Kenneth-Lim/static/js/787.03fea35c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.727eb8ca.css",
-    "static/js/main.90f15791.js"
+    "static/js/main.c60e5da5.js"
   ]
 }
