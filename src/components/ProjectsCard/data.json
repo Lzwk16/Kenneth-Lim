@@ -2,7 +2,7 @@
     {
         "title": "Heart Health Prediction",
         "description": "A machine learning application that predicts heart health risks using advanced algorithms and provides personalized health recommendations.",
-        "image": "/heart-health.jpg",
+        "image": "/Kenneth-Lim/heart-health.jpg",
         "technologies": [
             "Python",
             "TensorFlow",
@@ -15,7 +15,7 @@
     {
         "title": "Singapore HDB Price Analysis",
         "description": "Interactive dashboard analyzing Singapore's HDB resale prices with predictive modeling and visualization of price trends across different regions.",
-        "image": "/hdb.jpg",
+        "image": "/Kenneth-Lim/hdb.jpg",
         "technologies": [
             "Python",
             "Pandas",
@@ -28,7 +28,7 @@
     {
         "title": "Portfolio Website",
         "description": "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and a clean design.",
-        "image": "/mountains.jpg",
+        "image": "/Kenneth-Lim/mountains.jpg",
         "technologies": [
             "React",
             "Tailwind CSS",
