@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.727eb8ca.css",
-    "main.js": "/static/js/main.f4a06da0.js",
-    "static/js/787.03fea35c.chunk.js": "/static/js/787.03fea35c.chunk.js",
-    "static/media/profilImage.jpg": "/static/media/profilImage.2aa43ff25f352f036dc7.jpg",
-    "index.html": "/index.html",
-    "main.727eb8ca.css.map": "/static/css/main.727eb8ca.css.map",
-    "main.f4a06da0.js.map": "/static/js/main.f4a06da0.js.map",
-    "787.03fea35c.chunk.js.map": "/static/js/787.03fea35c.chunk.js.map"
+    "main.css": "/Kenneth-Lim/static/css/main.727eb8ca.css",
+    "main.js": "/Kenneth-Lim/static/js/main.f6b522e5.js",
+    "static/js/787.03fea35c.chunk.js": "/Kenneth-Lim/static/js/787.03fea35c.chunk.js",
+    "static/media/profilImage.jpg": "/Kenneth-Lim/static/media/profilImage.2aa43ff25f352f036dc7.jpg",
+    "index.html": "/Kenneth-Lim/index.html",
+    "main.727eb8ca.css.map": "/Kenneth-Lim/static/css/main.727eb8ca.css.map",
+    "main.f6b522e5.js.map": "/Kenneth-Lim/static/js/main.f6b522e5.js.map",
+    "787.03fea35c.chunk.js.map": "/Kenneth-Lim/static/js/787.03fea35c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.727eb8ca.css",
-    "static/js/main.f4a06da0.js"
+    "static/js/main.f6b522e5.js"
   ]
 }
