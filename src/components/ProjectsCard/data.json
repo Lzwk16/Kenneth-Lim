@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Heart Health Prediction",
+        "description": "A machine learning application that predicts heart health risks using advanced algorithms and provides personalized health recommendations.",
+        "image": "/heart-health.jpg",
+        "technologies": [
+            "Python",
+            "TensorFlow",
+            "Scikit-learn",
+            "Streamlit"
+        ],
+        "liveLink": "https://heart-health-predictor.herokuapp.com",
+        "sourceLink": "https://github.com/username/heart-health-predictor"
+    },
+    {
+        "title": "Singapore HDB Price Analysis",
+        "description": "Interactive dashboard analyzing Singapore's HDB resale prices with predictive modeling and visualization of price trends across different regions.",
+        "image": "/hdb.jpg",
+        "technologies": [
+            "Python",
+            "Pandas",
+            "Plotly",
+            "Dash"
+        ],
+        "liveLink": "https://sg-hdb-analysis.herokuapp.com",
+        "sourceLink": "https://github.com/username/sg-hdb-analysis"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and a clean design.",
+        "image": "/mountains.jpg",
+        "technologies": [
+            "React",
+            "Tailwind CSS",
+            "Framer Motion"
+        ],
+        "liveLink": "https://your-portfolio.com",
+        "sourceLink": "https://github.com/username/portfolio"
+    }
+]

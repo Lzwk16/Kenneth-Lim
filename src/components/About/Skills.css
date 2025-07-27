@@ -1,0 +1,26 @@
+.skills-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.skills-container {
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    width: 80px; /* Set the width to 80px */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container's width */
+}
+
+.skill p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}

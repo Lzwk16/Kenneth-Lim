@@ -1,6 +1,6 @@
 # GitHub settings
-#repository: yourusername/yourusername.github.io
-remote_theme: pages-themes/cayman@v0.2.0 # You can choose a different theme if you like
+repository: kenneth-lim-zhao-wei/kenneth-lim-zhao-wei.github.io
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Plugins
 plugins:
@@ -8,6 +8,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Site settings
 title: "Kenneth's Data Science portfolio"
@@ -18,7 +19,7 @@ baseurl: "" # The subpath of your site, e.g. /blog
 # Contact information
 email: limzhaoweikenneth@gmail.com
 linkedln: "https://www.linkedin.com/in/lzwk16/" # Add your linkedln handle
-github: "https://github.com/Lzwk16"  # Add your github handle
+github: "https://github.com/Lzwk16" # Add your github handle
 # # Site Author
 # author:
 #   name: "Your Name"
@@ -53,13 +54,16 @@ sections:
   - title: "Contact"
     permalink: /contact/
 
-
-
 # Exclude files from the site
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - src
+  - public
 
 # Include specific files in the site
 # include:
@@ -67,12 +71,11 @@ exclude:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-modernist
+theme: jekyll-theme-cayman
 
 # Front matter defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -81,9 +84,7 @@ defaults:
 
 # Footer
 footer:
-  content: "© Your Name - All rights reserved."
-
-
+  content: "© Kenneth Lim - All rights reserved."
 # # Custom variables
 # custom:
 #   contact_email: "contact@example.com"
