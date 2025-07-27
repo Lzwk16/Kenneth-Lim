@@ -1,5 +1,5 @@
 # GitHub settings
-repository: kenneth-lim-zhao-wei/kenneth-lim-zhao-wei.github.io
+repository: Lzwk16/Kenneth-Lim
 remote_theme: pages-themes/cayman@v0.2.0
 
 # Plugins
@@ -13,8 +13,8 @@ plugins:
 # Site settings
 title: "Kenneth's Data Science portfolio"
 description: "Hi I'm Kenneth, and I am an aspiring Data Scientist/Machine Learning Engineer. My Portfolio focuses on leveraging statistical and key insights to bring value for businesses "
-url: "https://kenneth-lim-zhao-wei.github.io"
-baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://lzwk16.github.io/Kenneth-Lim"
+baseurl: "/Kenneth-Lim" # The subpath of your site
 
 # Contact information
 email: limzhaoweikenneth@gmail.com
