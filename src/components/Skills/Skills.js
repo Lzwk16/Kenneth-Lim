@@ -5,41 +5,41 @@ const skillsData = [
     {
         category: "Programming Languages",
         skills: [
-            { name: "Python", icon: "/python-logo-4.png", level: 90 },
-            { name: "JavaScript", icon: "/javascript-logo.png", level: 50 },
-            { name: "SQL", icon: "/mysql-logo-1.png", level: 85 },
-            { name: "Bash", icon: "/unix-shell-logo-1.png", level: 85 }
+            { name: "Python", icon: "/Kenneth-Lim/python-logo-4.png", level: 90 },
+            { name: "JavaScript", icon: "/Kenneth-Lim/javascript-logo.png", level: 50 },
+            { name: "SQL", icon: "/Kenneth-Lim/mysql-logo-1.png", level: 85 },
+            { name: "Bash", icon: "/Kenneth-Lim/unix-shell-logo-1.png", level: 85 }
         ]
     },
     {
         category: "Machine Learning & Data Science",
         skills: [
-            { name: "PyTorch", icon: "/pytorch-logo.png", level: 80 },
-            { name: "TensorFlow", icon: "/tensorflow-logo-1.png", level: 85 },
-            { name: "Scikit-learn", icon: "/sk-learn-logo-1.png", level: 90 },
-            { name: "Pandas", icon: "/pandas-logo-1.png", level: 95 },
-            { name: "NumPy", icon: "/numpy-logo-1.png", level: 90 }
+            { name: "PyTorch", icon: "/Kenneth-Lim/pytorch-logo.png", level: 80 },
+            { name: "TensorFlow", icon: "/Kenneth-Lim/tensorflow-logo-1.png", level: 85 },
+            { name: "Scikit-learn", icon: "/Kenneth-Lim/sk-learn-logo-1.png", level: 90 },
+            { name: "Pandas", icon: "/Kenneth-Lim/pandas-logo-1.png", level: 95 },
+            { name: "NumPy", icon: "/Kenneth-Lim/numpy-logo-1.png", level: 90 }
         ]
     },
     {
         category: "Web Development",
         skills: [
-            { name: "FastAPI", icon: "/fastapi-logo.png", level: 60 },
-            { name: "Flask", icon: "/flask-logo.png", level: 60 },
+            { name: "FastAPI", icon: "/Kenneth-Lim/fastapi-logo.png", level: 60 },
+            { name: "Flask", icon: "/Kenneth-Lim/flask-logo.png", level: 60 },
             // { name: "React", icon: "/react-logo.png", level: 85 },
             // { name: "Node.js", icon: "/nodejs-logo.png", level: 80 },
-            { name: "PostgreSQL", icon: "/postgresql-logo.png", level: 70 }
+            { name: "PostgreSQL", icon: "/Kenneth-Lim/postgresql-logo.png", level: 70 }
         ]
     },
     {
         category: "Tools & Technologies",
         skills: [
-            { name: "Git", icon: "/git-logo.png", level: 90 },
-            { name: "GitLab", icon: "/gitlab-logo.png", level: 80 },
-            { name: "Docker", icon: "/docker-logo.png", level: 75 },
-            { name: "AWS", icon: "/aws-logo.png", level: 70 },
-            { name: "Jira", icon: "/jira-logo.png", level: 70 },
-            { name: "Tableau", icon: "/tableau-logo.png", level: 80 }
+            { name: "Git", icon: "/Kenneth-Lim/git-logo.png", level: 90 },
+            { name: "GitLab", icon: "/Kenneth-Lim/gitlab-logo.png", level: 80 },
+            { name: "Docker", icon: "/Kenneth-Lim/docker-logo.png", level: 75 },
+            { name: "AWS", icon: "/Kenneth-Lim/aws-logo.png", level: 70 },
+            { name: "Jira", icon: "/Kenneth-Lim/jira-logo.png", level: 70 },
+            { name: "Tableau", icon: "/Kenneth-Lim/tableau-logo.png", level: 80 }
         ]
     }
 ];
