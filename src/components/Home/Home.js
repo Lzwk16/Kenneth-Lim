@@ -22,19 +22,19 @@ const Home = () => {
     {
       name: 'GitHub',
       icon: FaGithub,
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/Lzwk16',
       className: 'bg-gray-900 hover:bg-gray-800'
     },
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://www.linkedin.com/in/lzwk16/',
       className: 'bg-blue-600 hover:bg-blue-700'
     },
     {
       name: 'Email',
       icon: FaEnvelope,
-      href: 'mailto:your.email@example.com',
+      href: 'mailto:limzhaoweikenneth@gmail.com',
       className: 'bg-red-600 hover:bg-red-700'
     },
     {
