@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Kenneth-Lim/static/css/main.727eb8ca.css",
-    "main.js": "/Kenneth-Lim/static/js/main.c60e5da5.js",
+    "main.css": "/Kenneth-Lim/static/css/main.396e4c4f.css",
+    "main.js": "/Kenneth-Lim/static/js/main.24ccccb4.js",
     "static/js/787.03fea35c.chunk.js": "/Kenneth-Lim/static/js/787.03fea35c.chunk.js",
     "static/media/profilImage.jpg": "/Kenneth-Lim/static/media/profilImage.2aa43ff25f352f036dc7.jpg",
     "index.html": "/Kenneth-Lim/index.html",
-    "main.727eb8ca.css.map": "/Kenneth-Lim/static/css/main.727eb8ca.css.map",
-    "main.c60e5da5.js.map": "/Kenneth-Lim/static/js/main.c60e5da5.js.map",
+    "main.396e4c4f.css.map": "/Kenneth-Lim/static/css/main.396e4c4f.css.map",
+    "main.24ccccb4.js.map": "/Kenneth-Lim/static/js/main.24ccccb4.js.map",
     "787.03fea35c.chunk.js.map": "/Kenneth-Lim/static/js/787.03fea35c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.727eb8ca.css",
-    "static/js/main.c60e5da5.js"
+    "static/css/main.396e4c4f.css",
+    "static/js/main.24ccccb4.js"
   ]
 }
