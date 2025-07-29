@@ -40,7 +40,7 @@ const Home = () => {
     {
       name: 'Resume',
       icon: FaFileAlt,
-      href: '/assets/documents/Resume_kenneth_AI engineer.pdf',
+      href: '/Kenneth-Lim/assets/documents/Resume_kenneth_AI engineer.pdf',
       className: 'bg-green-600 hover:bg-green-700'
     }
   ];
