@@ -48,38 +48,27 @@ const About = () => {
                     </h3>
 
                     <p className="text-gray-600 leading-relaxed">
-                        I am a passionate developer with expertise in software development, machine learning model development, deployment operations.
+                        I am a passionate developer with expertise in software development, machine learning model development and deployment operations.
                         My journey in technology has equipped me with a unique blend of skills that allows me to
                         build robust and scalable AI/ML applications for automation solutions and improved decision-making.
+
+                        Feel free to connect with me on LinkedIn or via email to exchange ideas and collaborate on projects!
                     </p>
 
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
                             <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                            <span className="text-gray-700">Software Development and MLOps(Python, Bash, React, Docker, AWS)</span>
+                            <span className="text-gray-700">Software Development, MLOps & Cloud (Python, Bash, CI/CD, Docker, MLflow, AWS)</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                            <span className="text-gray-700">Machine Learning & Data Analysis(Pandas, Numpy, Scikit-learn, TensorFlow, PyTorch)</span>
+                            <span className="text-gray-700">Artificial Intelligence & Machine Learning (Pandas, Numpy, Scikit-learn, TensorFlow, PyTorch)</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                            <span className="text-gray-700">Database Design & Management(PostgreSQL, MySQL, Neo4j)</span>
+                            <span className="text-gray-700">Database Design & Management (PostgreSQL, MySQL, Neo4j)</span>
                         </div>
                     </div>
-
-                    <motion.div
-                        className="pt-6"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        <a
-                            href="#contact"
-                            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300"
-                        >
-                            Let's Connect
-                        </a>
-                    </motion.div>
                 </motion.div>
             </div>
         </div>

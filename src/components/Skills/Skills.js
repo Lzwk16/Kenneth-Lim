@@ -5,79 +5,72 @@ const skillsData = [
     {
         category: "Programming Languages",
         skills: [
-            { name: "Python", icon: "/Kenneth-Lim/python-logo-4.png", level: 90 },
-            { name: "JavaScript", icon: "/Kenneth-Lim/javascript-logo.png", level: 50 },
-            { name: "SQL", icon: "/Kenneth-Lim/mysql-logo-1.png", level: 85 },
-            { name: "Bash", icon: "/Kenneth-Lim/unix-shell-logo-1.png", level: 85 }
+            { name: "Python", icon: "/Kenneth-Lim/Images/python-logo.png" },
+            { name: "SQL", icon: "/Kenneth-Lim/Images/mysql-logo.png" },
+            { name: "Bash", icon: "/Kenneth-Lim/Images/unix-shell-logo.png" },
+            { name: "JavaScript", icon: "/Kenneth-Lim/Images/javascript-logo.png" }
         ]
     },
     {
         category: "Machine Learning & Data Science",
         skills: [
-            { name: "PyTorch", icon: "/Kenneth-Lim/pytorch-logo.png", level: 80 },
-            { name: "TensorFlow", icon: "/Kenneth-Lim/tensorflow-logo-1.png", level: 85 },
-            { name: "Scikit-learn", icon: "/Kenneth-Lim/sk-learn-logo-1.png", level: 90 },
-            { name: "Pandas", icon: "/Kenneth-Lim/pandas-logo-1.png", level: 95 },
-            { name: "NumPy", icon: "/Kenneth-Lim/numpy-logo-1.png", level: 90 }
+            { name: "PyTorch", icon: "/Kenneth-Lim/Images/pytorch-logo.png" },
+            { name: "TensorFlow", icon: "/Kenneth-Lim/Images/tensorflow-logo.png" },
+            { name: "Scikit-learn", icon: "/Kenneth-Lim/Images/sk-learn-logo.png" },
+            { name: "Pandas", icon: "/Kenneth-Lim/Images/pandas-logo.png" }
         ]
     },
     {
         category: "Web Development",
         skills: [
-            { name: "FastAPI", icon: "/Kenneth-Lim/fastapi-logo.png", level: 60 },
-            { name: "Flask", icon: "/Kenneth-Lim/flask-logo.png", level: 60 },
-            // { name: "React", icon: "/react-logo.png", level: 85 },
-            // { name: "Node.js", icon: "/nodejs-logo.png", level: 80 },
-            { name: "PostgreSQL", icon: "/Kenneth-Lim/postgresql-logo.png", level: 70 }
+            { name: "FastAPI", icon: "/Kenneth-Lim/Images/fastapi-logo.png" },
+            { name: "Flask", icon: "/Kenneth-Lim/Images/flask-logo.png" },
+            { name: "Streamlit", icon: "/Kenneth-Lim/Images/streamlit-logo.png" },
+            { name: "PostgreSQL", icon: "/Kenneth-Lim/Images/postgresql-logo.png" }
         ]
     },
     {
         category: "Tools & Technologies",
         skills: [
-            { name: "Git", icon: "/Kenneth-Lim/git-logo.png", level: 90 },
-            { name: "GitLab", icon: "/Kenneth-Lim/gitlab-logo.png", level: 80 },
-            { name: "Docker", icon: "/Kenneth-Lim/docker-logo.png", level: 75 },
-            { name: "AWS", icon: "/Kenneth-Lim/aws-logo.png", level: 70 },
-            { name: "Jira", icon: "/Kenneth-Lim/jira-logo.png", level: 70 },
-            { name: "Tableau", icon: "/Kenneth-Lim/tableau-logo.png", level: 80 }
+            { name: "Git", icon: "/Kenneth-Lim/Images/git-logo.png" },
+            { name: "GitLab", icon: "/Kenneth-Lim/Images/gitlab-logo.png" },
+            { name: "Docker", icon: "/Kenneth-Lim/Images/docker-logo.png" },
+            { name: "AWS", icon: "/Kenneth-Lim/Images/aws-logo.png" },
+            { name: "Jira", icon: "/Kenneth-Lim/Images/jira-logo.png" },
+            { name: "Tableau", icon: "/Kenneth-Lim/Images/tableau-logo.jpg" }
         ]
     }
 ];
 
-const SkillBar = ({ name, level, icon, index }) => {
-    return (
-        <motion.div
-            className="mb-6"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-        >
-            <div className="flex items-center mb-2">
-                <img src={icon} alt={name} className="w-8 h-8 mr-3 object-contain" />
-                <span className="text-gray-800 font-medium">{name}</span>
-                <span className="ml-auto text-gray-600">{level}%</span>
-            </div>
-            <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
-                <motion.div
-                    className="h-full bg-blue-600 rounded-full"
-                    initial={{ width: 0 }}
-                    animate={{ width: `${level}%` }}
-                    transition={{ duration: 1, delay: index * 0.1 }}
-                />
-            </div>
-        </motion.div>
-    );
-};
-
 const SkillCategory = ({ category, skills }) => {
     return (
         <div className="mb-12">
-            <h3 className="text-xl font-semibold text-gray-900 mb-6">{category}</h3>
-            <div className="space-y-4">
-                {skills.map((skill, index) => (
-                    <SkillBar key={skill.name} {...skill} index={index} />
-                ))}
-            </div>
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+            >
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">{category}</h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+                    {skills.map((skill, index) => (
+                        <motion.div
+                            key={skill.name}
+                            className="flex flex-col items-center text-center"
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}
+                        >
+                            <img
+                                src={skill.icon}
+                                alt={skill.name}
+                                className="w-30 h-30 object-contain mb-3"
+                                style={{ width: '120px', height: '120px' }}
+                            />
+                            <span className="text-gray-800 text-lg font-medium">{skill.name}</span>
+                        </motion.div>
+                    ))}
+                </div>
+            </motion.div>
         </div>
     );
 };
@@ -94,7 +87,7 @@ const Skills = () => {
                 Technical Skills
             </motion.h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-12">
                 {skillsData.map((category) => (
                     <SkillCategory key={category.category} {...category} />
                 ))}
