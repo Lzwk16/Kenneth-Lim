@@ -48,7 +48,7 @@ const About = () => {
                     </h3>
 
                     <p className="text-gray-600 leading-relaxed">
-                        I am a passionate developer with expertise in software development, machine learning model development and deployment operations.
+                        I am a passionate developer with expertise in software development, AI, machine learning model development and deployment operations.
                         My journey in technology has equipped me with a unique blend of skills that allows me to
                         build robust and scalable AI/ML applications for automation solutions and improved decision-making.
 

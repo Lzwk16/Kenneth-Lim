@@ -1,17 +1,5 @@
 [
     {
-        "title": "Text to SQL Generator",
-        "description": "Powered by a locally powered LLM, this simple web application converts natural language queries into SQL queries to provide a simple and straightforward way for users to interact with their databases.",
-        "image": "/Kenneth-Lim/Images/text-to-sql.jpg",
-        "technologies": [
-            "Python",
-            "LangChain",
-            "Streamlit",
-            "Ollama"
-        ],
-        "sourceLink": "https://github.com/Lzwk16/text-to-sql"
-    },
-    {
         "title": "End-to-End Machine Learning Pipeline for prediction of Private Property Prices",
         "description": "This project covers the entire end-to-end machine learning pipeline, from raw data collection through URA's API to model training and deployment via Docker for containerization and FastAPI at backend.",
         "image": "/Kenneth-Lim/Images/hdb.jpg",
@@ -25,14 +13,26 @@
         "sourceLink": "https://github.com/Lzwk16/URA_ML_pipeline?tab=readme-ov-file"
     },
     {
-        "title": "Portfolio Website",
-        "description": "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and a clean design.",
-        "image": "/Kenneth-Lim/Images/mountains.jpg",
+        "title": "AI Travel Itinerary Generator",
+        "description": "Automated Travel Itinerary Planner built with State-of-the-Art Agentic AI tools and LLMs, featuring a simple and user-friendly interface.",
+        "image": "/Kenneth-Lim/Images/travel-itinerary-bot.jpg",
         "technologies": [
-            "React",
-            "Tailwind CSS",
-            "TypeScript"
+            "Python",
+            "CrewAI",
+            "Groq"
         ],
-        "sourceLink": "https://lzwk16.github.io/Kenneth-Lim/"
+        "sourceLink": "https://github.com/Lzwk16/ai_travel_assistant"
+    },
+    {
+        "title": "Text to SQL Generator",
+        "description": "Powered by a locally running LLM, this simple web application converts natural language queries into SQL queries to provide a simple and straightforward way for users to interact with their databases.",
+        "image": "/Kenneth-Lim/Images/text-to-sql.jpg",
+        "technologies": [
+            "Python",
+            "LangChain",
+            "Streamlit",
+            "Ollama"
+        ],
+        "sourceLink": "https://github.com/Lzwk16/text-to-sql"
     }
 ]
