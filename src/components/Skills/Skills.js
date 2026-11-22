@@ -12,12 +12,13 @@ const skillsData = [
         ]
     },
     {
-        category: "Machine Learning & Data Science",
+        category: "AI & Machine Learning",
         skills: [
             { name: "PyTorch", icon: "/Kenneth-Lim/Images/pytorch-logo.png" },
             { name: "TensorFlow", icon: "/Kenneth-Lim/Images/tensorflow-logo.png" },
             { name: "Scikit-learn", icon: "/Kenneth-Lim/Images/sk-learn-logo.png" },
-            { name: "Pandas", icon: "/Kenneth-Lim/Images/pandas-logo.png" }
+            { name: "LangChain", icon: "/Kenneth-Lim/Images/langchain-logo.svg" },
+            { name: "LangGraph", icon: "/Kenneth-Lim/Images/langgraph-logo.svg" },
         ]
     },
     {
@@ -37,7 +38,8 @@ const skillsData = [
             { name: "Docker", icon: "/Kenneth-Lim/Images/docker-logo.png" },
             { name: "AWS", icon: "/Kenneth-Lim/Images/aws-logo.png" },
             { name: "Jira", icon: "/Kenneth-Lim/Images/jira-logo.png" },
-            { name: "Tableau", icon: "/Kenneth-Lim/Images/tableau-logo.jpg" }
+            { name: "Mlflow", icon: "/Kenneth-Lim/Images/mlflow-logo.png" },
+            { name: "Model Context Protocol", icon: "/Kenneth-Lim/Images/model-context-protocol-logo.svg" },
         ]
     }
 ];

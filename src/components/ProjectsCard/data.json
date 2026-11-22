@@ -25,13 +25,13 @@
     },
     {
         "title": "Text to SQL Generator",
-        "description": "Powered by a locally running LLM, this simple web application converts natural language queries into SQL queries to provide a simple and straightforward way for users to interact with their databases.",
+        "description": "Powered by an open source LLM, this simple web application converts natural language queries into SQL queries to provide a simple and straightforward way for users to interact with their databases.",
         "image": "/Kenneth-Lim/Images/text-to-sql.jpg",
         "technologies": [
             "Python",
             "LangChain",
             "Streamlit",
-            "Ollama"
+            "LangGraph"
         ],
         "sourceLink": "https://github.com/Lzwk16/text-to-sql"
     }
